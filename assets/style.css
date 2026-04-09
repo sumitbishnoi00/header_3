@@ -69,6 +69,7 @@ section {
     font-size: 20px;
     line-height: 26px;
     padding: 18px 24px 16px 24px;
+    outline: none;
 }
 
 .email-input::placeholder {
@@ -86,6 +87,7 @@ section {
     font-size: 20px;
     line-height: 26px;
     padding: 18px 24px 16px 24px;
+    outline: none;
 }
 
 .password-input::placeholder {
@@ -107,6 +109,11 @@ section {
     cursor: pointer;
 
 
+}
+.btn:hover
+{
+    background-color: #FFFFFF;
+    color:  #25DAC5;
 }
 
 .para {
@@ -149,7 +156,7 @@ img {
     
     width: 70px;
     height: 70px;
-    background-color: #ff4d4d;
+    background-color: #EA3223;
     color: white;
     
     display: flex;
@@ -159,6 +166,14 @@ img {
     border-radius: 50%;
     font-size: 30px;
     cursor: pointer;
+}
+.play-btn:hover
+{
+    background-color: white;
+}
+.play-btn:hover path
+{
+    fill:  #EA3223;
 }
 
 .para-2 {
